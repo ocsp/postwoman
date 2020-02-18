@@ -14,7 +14,7 @@
                 <label for="generatedCode">{{ $t("javascript_code") }}</label>
                 <div>
                   <a
-                    href="https://github.com/liyasthomas/postwoman/wiki/Pre-Request-Scripts"
+                    href="https://github.com/niksend/postwoman/wiki/Pre-Request-Scripts"
                     target="_blank"
                     rel="noopener"
                   >
@@ -495,7 +495,7 @@
                 <label for="generatedCode">{{ $t("javascript_code") }}</label>
                 <div>
                   <a
-                    href="https://github.com/liyasthomas/postwoman/wiki/Post-Requests-Tests"
+                    href="https://blog.bili.icu/Post-Requests-Tests"
                     target="_blank"
                     rel="noopener"
                   >
@@ -2632,7 +2632,7 @@ export default {
         default:
           (this.label = ""),
             (this.method = "GET"),
-            (this.url = "https://httpbin.org"),
+            (this.url = "https://bili.icu"),
             (this.auth = "None"),
             (this.path = "/get"),
             (this.auth = "None");
